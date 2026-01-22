@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(184, 237, 219 ,0.4);
+        }
+        header {
+            background-image: url('images_Project1/background.jpg');
+            background-size: cover;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            
+        }
+        header h1 {
+           background: linear-gradient(270deg, #21047a, #e41197, #0000ff, #ff00ff);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 36px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        nav ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        nav ul li {
+            /* float: left; */
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        .Logo {
+            width: 50px;
+            height: auto;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .card-container {
+            height : vh;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            padding: 20px;
+        }
+        .card{display: flex;
+            flex-direction: column;
+            width: 350px;
+            padding: 5px;
+            height: 500px;
+            border-radius: 5px;
+            background-color: rgb(189, 234, 232 ,0.8);
+            box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+        .card img{
+            width: 100%;
+            
+            height: 50%;
+            box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.7);
+            border-radius: 5px 5px 0 0;
+        }
+        .text{
+            height: 100px;
+            overflow: hidden;
+        }
+        .btn{
+            padding: 10px 15px;
+            margin: auto;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: #45a049;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            height: auto;
+        }
+        .social-media-icons a img {
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+            display: inline-block;
+        }
+        .copyright {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        ul:nth-child(1) {
+            margin-left: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Project1</h1>
+    </header>
+    <nav>
+        <ul>
+           <li> <a href="index.html" style="padding: 0px; margin: 0px;"><img src="images_Project1/logopng.png" alt="Logo" class="Logo"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Home Page</h2>
+        <p>This is the home page of Project1.</p>
+        <div class="card-container">
+            <div class="card card1">
+                <img src="images_Project1/card1.jpg" alt="">
+                <h2>Card 1</h2>
+                <div class="text">
+                    <p>This is some additional text for Card 1. <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolorum deserunt facilis minima fugiat eveniet reiciendis perspiciatis laborum consequatur ab.</p>
+                </div>
+                <button class="btn">Click me</button>
+            </div>
+            <div class="card card2">
+                <img src="images_Project1/card2.jpg" alt="">
+                <h2>Card 2</h2>
+                <div class="text">
+                    <p>This is some additional text for Card 2. <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolorum deserunt facilis minima fugiat eveniet reiciendis perspiciatis laborum consequatur ab.</p>
+                </div>
+                <button class="btn">Click me</button>
+            </div>
+            <div class="card card3">
+                <img src="images_Project1/card3.jpg" alt="">
+                <h2>Card 3</h2>
+                <div class="text">
+                    <p>This is some additional text for Card 3. <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolorum deserunt facilis minima fugiat eveniet reiciendis perspiciatis laborum consequatur ab.</p>
+                </div>
+                <button class="btn">Click me</button>
+            </div>
+            <div class="card card4">
+                <img src="images_Project1/card4.jpg" alt="">
+                <h2>Card 4</h2>
+                <div class="text">
+                    <p>This is some additional text for Card 4. <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolorum deserunt facilis minima fugiat eveniet reiciendis perspiciatis laborum consequatur ab.</p>
+                </div>
+                <button class="btn">Click me</button>
+            </div>
+            <div class="card card5">
+                <img src="images_Project1/card5.jpg" alt="">
+                <h2>Card 5</h2>
+                <div class="text">
+                    <p>This is some additional text for Card 5. <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolorum deserunt facilis minima fugiat eveniet reiciendis perspiciatis laborum consequatur ab.</p>
+                </div>
+                <button class="btn">Click me</button>
+            </div>
+            <div class="card card6">
+                <img src="images_Project1/card6.jpg" alt="">
+                <h2>Card 6</h2>
+                <div class="text">
+                    <p>This is some additional text for Card 6. <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolorum deserunt facilis minima fugiat eveniet reiciendis perspiciatis laborum consequatur ab.</p>
+                </div>
+                <button class="btn">Click me</button>
+            </div>
+            <div class="card card7">
+                <img src="images_Project1/card7.jpg" alt="">
+                <h2>Card 7</h2>
+                <div class="text">
+                    <p>This is some additional text for Card 7. <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolorum deserunt facilis minima fugiat eveniet reiciendis perspiciatis laborum consequatur ab.</p>
+                </div>
+                <button class="btn">Click me</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="Social-media-icons">
+            <a href="https://www.facebook.com/login/" target="_blank"><img src="images_Project1/facebook.svg" alt="Facebook" width="30"></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="images_Project1/whatsapp.svg" alt="Twitter" width="30"></a>
+            <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><img src="images_Project1/instagram.svg" alt="Instagram" width="30"></a>
+        </div>
+        
+        <p class="copyright">&copy; 2024 Project1. All rights reserved.</p>
+    </footer>
+</body>
+</html>
